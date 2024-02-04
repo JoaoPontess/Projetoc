@@ -1,17 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Testando</title>
-  <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testando</title>
+    <link rel="stylesheet" href="style.css" />
 
-      <style>
+
+  <nav class="menu-container">
+    <!-- burger menu -->
+    <input type="checkbox" aria-label="Toggle menu" />
+    <span></span>
+    <span></span>
+    <span></span>
+
+    <!-- logo -->
+      <a href="#" class="menu-logo">
+        <img src="https://wweb.dev/resources/navigation-generator/logo-placeholder.png" alt="My Awesome Website"/>
+      </a>
+
+      <!-- menu items -->
+      <div class="menu">
+      <ul>
+        <li>
+          <a href="#home">
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#projects">
+            Projects
+          </a>
+        </li>
+        <li>
+          <a href="#blog">
+            Blog
+          </a>
+        </li>
+        <li>
+          <a href="#more">
+            About me
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#signup">
+            Sign-up
+          </a>
+        </li>
+        <li>
+          <a href="#login">
+            Login
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+    <style>
       path {
         transform-origin: 50% 0%;
       }
       .background--custom {
-        background-color: #FFFFFF;
+        background-color: burlywood;
         position: absolute;
         width: 100vw;
         height: 100vh;
@@ -44,14 +96,33 @@
         }
       }
     </style>
+  </head>
+  <body>
 
-</head>
-<body>
-  <h1>João Pontes</h1>
-   
-    <svg class="background--custom" id="demo" viewBox="0 0 100 100" preserveAspectRatio="none">
-      <path fill="#C9EAF4" fill-opacity="0.7" d="M-100 -100L200 -100L200 20L-100 20Z" style="animation: path0 3.2258064516129035s linear infinite alternate;" /><path fill="#89BCDE" fill-opacity="0.2" d="M-100 -100L200 -100L200 40L-100 40Z" style="animation: path1 3.7593984962406015s linear infinite alternate;" /><path fill="#463480" fill-opacity="0.5" d="M-100 -100L200 -100L200 60L-100 60Z" style="animation: path2 13.157894736842104s linear infinite alternate;" /> 
+    <svg
+      class="background--custom"
+      id="demo"
+      viewBox="0 0 100 100"
+      preserveAspectRatio="none"
+    >
+      <path
+        fill="#C9EAF4"
+        fill-opacity="0.7"
+        d="M-100 -100L200 -100L200 20L-100 20Z"
+        style="animation: path0 3.2258064516129035s linear infinite alternate"
+      />
+      <path
+        fill="#89BCDE"
+        fill-opacity="0.2"
+        d="M-100 -100L200 -100L200 40L-100 40Z"
+        style="animation: path1 3.7593984962406015s linear infinite alternate"
+      />
+      <path
+        fill="#463480"
+        fill-opacity="0.5"
+        d="M-100 -100L200 -100L200 60L-100 60Z"
+        style="animation: path2 13.157894736842104s linear infinite alternate"
+      />
     </svg>
-  
-</body>
+  </body>
 </html>
